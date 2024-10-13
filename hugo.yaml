@@ -11,10 +11,10 @@ params:
     Content: "Welcome to my blog. Here you'll find..."
 
   socialIcons:
-    - name: "twitter"
-      url: "https://twitter.com/yourusername"
     - name: "github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/nbaxter"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/nathanbaxter9/"
 
   ShowReadingTime: true
   ShowShareButtons: true
