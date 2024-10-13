@@ -1,0 +1,40 @@
+baseURL: "http://localhost:1313/"
+languageCode: "en-us"
+title: "My New Hugo Site"
+theme: "PaperMod"
+
+metaDataFormat: "yaml"
+
+params:
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: "Welcome to my blog. Here you'll find..."
+
+  socialIcons:
+    - name: "twitter"
+      url: "https://twitter.com/yourusername"
+    - name: "github"
+      url: "https://github.com/yourusername"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+
+menu:
+  main:
+    - identifier: "categories"
+      name: "Categories"
+      url: "/categories/"
+      weight: 10
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 20
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 30
